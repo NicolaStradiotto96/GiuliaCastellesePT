@@ -1,19 +1,46 @@
+/* VARIABLES */
 :root {
-    
+    --accent-1: #DB1F26;
+    --accent-2: #A51E22;
+    --light-black: #1A1A1A;
+    --dark-white: #EAEBED;
 }
 
-* {
-    font-family: Roboto, sans-serif;
-}
-
+/* CLASSES */
 .font-title {
     font-family: BristoneMedium, sans-serif;
 }
 
 .bg-b {
-    background-color: #1A1A1A;
+    background-color: var(--light-black);
 }
 
+.shadow-white {
+    text-shadow: 2px 2px 1px white, -2px -2px 1px white, 2px -2px 1px white, -2px 2px 1px white;
+}
+
+.shadow-black {
+    text-shadow: 2px 2px 1px black, -2px -2px 1px black, 2px -2px 1px black, -2px 2px 1px black;
+}
+
+.shadow-red-1 {
+    text-shadow: 2px 2px 1px black, -2px -2px 1px black, 2px -2px 1px black, -2px 2px 1px black;
+}
+
+.shadow-red-1 {
+    text-shadow: 2px 2px 1px var(--accent-1), -2px -2px 1px var(--accent-1), 2px -2px 1px var(--accent-1), -2px 2px 1px var(--accent-1);
+}
+
+.shadow-red-2 {
+    text-shadow: 2px 2px 1px var(--accent-2), -2px -2px 1px var(--accent-2), 2px -2px 1px var(--accent-2), -2px 2px 1px var(--accent-2);
+}
+
+/* BODY */
+* {
+    font-family: Roboto, sans-serif;
+}
+
+/* NAVBAR */
 .nav-link {
     font-size: 1.2rem;
     font-weight: bold;
@@ -27,7 +54,7 @@
 
 .nav-link:hover {
     transform: scale(1.1);
-    text-shadow: 0 0 5px #DB1F26, 0 0 10px #DB1F26, 0 0 20px #DB1F26;
+    text-shadow: 0 0 5px var(--accent-1), 0 0 10px var(--accent-1), 0 0 20px var(--accent-1);
 }
 
 .nav-link::after {
@@ -48,6 +75,13 @@
     transform-origin: left;
 }
 
+/* HEADER */
+.video {
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+/* SECTIONS */
 .home-section-2 {
     background-repeat: no-repeat;
     background: fixed;
