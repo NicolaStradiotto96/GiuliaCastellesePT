@@ -13,8 +13,11 @@
 <body>
     <x-navbar></x-navbar>
 
-    <div class="min-vh-100">
+    <div class="h-screen">
         {{ $slot }}
+    </div>
+    <div class="h-screen">
+
     </div>
 </body>
 
