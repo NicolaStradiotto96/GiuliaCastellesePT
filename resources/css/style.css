@@ -35,7 +35,7 @@
     text-shadow: 2px 2px 1px var(--accent-2), -2px -2px 1px var(--accent-2), 2px -2px 1px var(--accent-2), -2px 2px 1px var(--accent-2);
 }
 
-/* BODY */
+/* HTML */
 * {
     font-family: Roboto, sans-serif;
 }
@@ -81,7 +81,15 @@
     will-change: transform;
 }
 
+.header-title {
+    font-size: clamp(4rem, 6vw, 6rem);
+}
+
 /* SECTIONS */
+.section-title {
+    font-size: clamp(1.4rem, 6vw, 5rem);
+}
+
 .home-section-2 {
     background-repeat: no-repeat;
     background: fixed;

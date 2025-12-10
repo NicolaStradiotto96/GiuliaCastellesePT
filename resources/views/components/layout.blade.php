@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Giulia Castellese PT</title>
     {{-- VITE --}}
-    @VITE(['resources/css/app.css', 'resources/css/style.css', 'resources/js/app.js', 'resources/js/main.js'])
+    @VITE(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body>
