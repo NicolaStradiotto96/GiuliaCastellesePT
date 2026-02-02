@@ -15,10 +15,10 @@
                     <span class="nav-link nav-before">CHI SONO</span>
                 </a>
                 <a href="#section2" class="group">
-                    <span class="nav-link nav-before">COACHING LIVE</span>
+                    <span class="nav-link nav-before">COACHING ONLINE</span>
                 </a>
                 <a href="#section3" class="group">
-                    <span class="nav-link nav-before">COACHING ONLINE</span>
+                    <span class="nav-link nav-before">COACHING LIVE</span>
                 </a>
                 <a href="#contatti" class="group">
                     <span class="nav-link">CONTATTI</span>
@@ -54,10 +54,10 @@
                         CHI SONO
                     </a>
                     <a class="nav-link" href="#section2">
-                        COACHING LIVE
+                        COACHING ONLINE
                     </a>
                     <a class="nav-link" href="#section3">
-                        COACHING ONLINE
+                        COACHING LIVE
                     </a>
                     <a class="nav-link" href="#contatti">
                         CONTATTI

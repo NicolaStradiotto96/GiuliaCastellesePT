@@ -3,7 +3,7 @@
     --accent-1: #DB1F26;
     --accent-2: #A51E22;
     --light-black: #1A1A1A;
-    --dark-white: #EAEBED;
+    --dark-white: #F8F7F8;
 }
 
 /* CLASSES */
@@ -17,6 +17,10 @@
 
 .accent-2 {
     color: var(--accent-2);
+}
+
+.dark-white {
+    color: var(--dark-white);
 }
 
 .shadow-white {
@@ -57,7 +61,6 @@
 }
 
 .nav-link:hover {
-    /* transform: scale(1.1); */
     text-shadow: 0 0 5px var(--accent-1), 0 0 10px var(--accent-1), 0 0 20px var(--accent-1);
 }
 
@@ -108,14 +111,14 @@
     font-weight: bold;
 }
 
-.home-section-1 {
+.home-section-2 {
     /* background-image: url('../images/bg1.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-.home-section-2 {
+.home-section-1 {
     background-image: url('../images/bg2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -123,6 +126,7 @@
     background-position: center center;
 }
 
+/* SECTION 3 */
 .card-subtitle {
     color: #A51E22;
     font-weight: bold;
@@ -130,4 +134,13 @@
 
 .img-section-3 {
     width: 15rem;
+}
+
+.section-3-card {
+    transform: scale(1);
+    transition: transform .3s;
+}
+
+.section-3-card:hover {
+    transform: scale(1.1);
 }
