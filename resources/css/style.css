@@ -15,6 +15,10 @@
     background-color: var(--light-black);
 }
 
+.accent-2 {
+    color: var(--accent-2);
+}
+
 .shadow-white {
     text-shadow: 2px 2px 1px white, -2px -2px 1px white, 2px -2px 1px white, -2px 2px 1px white;
 }
@@ -37,7 +41,7 @@
 
 /* HTML */
 * {
-    font-family: Roboto, sans-serif;
+    font-family: AltoneMedium, sans-serif;
 }
 
 /* NAVBAR */
@@ -53,8 +57,17 @@
 }
 
 .nav-link:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     text-shadow: 0 0 5px var(--accent-1), 0 0 10px var(--accent-1), 0 0 20px var(--accent-1);
+}
+
+.nav-before::before {
+    content: "";
+    background: white;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    right: -12.5px;
 }
 
 .nav-link::after {
@@ -90,9 +103,31 @@
     font-size: clamp(1.4rem, 6vw, 5rem);
 }
 
-.home-section-2 {
+.section-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.home-section-1 {
+    /* background-image: url('../images/bg1.jpg'); */
     background-repeat: no-repeat;
-    background: fixed;
     background-size: cover;
     background-position: center center;
+}
+
+.home-section-2 {
+    background-image: url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-subtitle {
+    color: #A51E22;
+    font-weight: bold;
+}
+
+.img-section-3 {
+    width: 15rem;
 }

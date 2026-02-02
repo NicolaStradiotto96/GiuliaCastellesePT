@@ -8,8 +8,6 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
-    --font-title: 'BristoneMedium', sans-serif;
-    --font-text: 'Roboto', sans-serif;
 }
 
 @font-face {
@@ -20,8 +18,8 @@
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto.ttf') format('truetype');
+    font-family: 'AltoneMedium';
+    src: url('../fonts/AltoneMedium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

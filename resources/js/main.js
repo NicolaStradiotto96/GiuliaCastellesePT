@@ -3,6 +3,7 @@ import Lenis from '@studio-freight/lenis'
 const mobileMenu = document.getElementById('mobileMenu');
 const menuToggle = document.getElementById('menuToggle');
 const sections = document.querySelectorAll('.section');
+document.getElementById('currentYear').textContent = new Date().getFullYear();
 
 // MOBILE MENU
 menuToggle.addEventListener('click', () => {
