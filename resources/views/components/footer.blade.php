@@ -4,14 +4,14 @@
     {{-- CONTACTS --}}
     <h1 class="text-3xl text-center mt-5">CONTATTI</h1>
     {{-- WHATSAPP --}}
-    <a href="https://wa.me/393895496877" target="_blank" class="flex justify-center align-middle mt-5">
+    <a href="https://wa.me/393895496877" target="_blank" class="flex justify-center align-middle mt-5 footer-info">
         <svg class="w-20 h-20 mr-5 text-white fill-current flex justify-center" aria-hidden="true">
             <use href="#whatsapp"></use>
         </svg>
-        <p class="text-5xl text-white flex items-center">+39 389 549 6877</p>
+        <p class="text-5xl text-white flex items-center">+39 351 612 2785</p>
     </a>
     {{-- MAIL --}}
-    <a href="mailto:castellese.giulia@virgilio.it" target="_blank" class="flex justify-center align-middle mt-5">
+    <a href="mailto:castellese.giulia@virgilio.it" target="_blank" class="flex justify-center align-middle mt-5 footer-info">
         <svg class="w-20 h-20 mr-5 text-white fill-current flex justify-center" aria-hidden="true">
             <use href="#mail"></use>
         </svg>
@@ -22,17 +22,17 @@
         <h2 class="text-3xl text-center">SEGUIMI SU</h2>
         <div class="flex justify-center gap-4">
             {{-- INSTAGRAM --}}
-            <a href="https://www.instagram.com/giulia.castellese.pt/" target="_blank">
-                <svg class="w-20 h-20 mr-5 my-5 text-white fill-current" aria-hidden="true">
+            <a href="https://www.instagram.com/giulia.castellese.pt/" target="_blank" class="footer-info">
+                <svg class="w-20 h-20 my-5 text-white fill-current" aria-hidden="true">
                     <use href="#instagram"></use>
                 </svg>
             </a>
             {{-- TIKTOK --}}
-            <a href="https://www.tiktok.com/@giulia.castellese.pt" target="_blank">
+            {{-- <a href="https://www.tiktok.com/@giulia.castellese.pt" target="_blank">
                 <svg class="w-20 h-20 my-5 text-white fill-current" aria-hidden="true">
                     <use href="#tiktok"></use>
                 </svg>
-            </a>
+            </a> --}}
         </div>
     </div>
     {{-- POLICIES --}}

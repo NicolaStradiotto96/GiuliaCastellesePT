@@ -12,13 +12,13 @@
                     <span class="nav-link nav-before">HOME</span>
                 </a>
                 <a href="#section1" class="group">
-                    <span class="nav-link nav-before">CHI SONO</span>
-                </a>
-                <a href="#section2" class="group">
                     <span class="nav-link nav-before">COACHING ONLINE</span>
                 </a>
-                <a href="#section3" class="group">
+                <a href="#section2" class="group">
                     <span class="nav-link nav-before">COACHING LIVE</span>
+                </a>
+                <a href="#section3" class="group">
+                    <span class="nav-link nav-before">CHI SONO</span>
                 </a>
                 <a href="#contatti" class="group">
                     <span class="nav-link">CONTATTI</span>
@@ -51,13 +51,13 @@
                         HOME
                     </a>
                     <a class="nav-link" href="#section1">
-                        CHI SONO
-                    </a>
-                    <a class="nav-link" href="#section2">
                         COACHING ONLINE
                     </a>
-                    <a class="nav-link" href="#section3">
+                    <a class="nav-link" href="#section2">
                         COACHING LIVE
+                    </a>
+                    <a class="nav-link" href="#section3">
+                        CHI SONO
                     </a>
                     <a class="nav-link" href="#contatti">
                         CONTATTI
